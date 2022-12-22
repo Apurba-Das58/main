@@ -159,13 +159,56 @@
 
 
 // Using function
-function math(){
-    var num1 = 2;
-    var num2 = 3;
-    var num3 = 4;
-    document.write("<br/> Addition is:" + (+num1+num2+num3));
-    document.write("<br/> Subtraction is:" + (+num3-num2-num1));
-    document.write("<br/> Multiplication is:" + (+num3*num2*num1));
-    document.write("<br/> Division is:" + (+num3/num1/num3));
+// function math(){
+//     var num1 = 2;
+//     var num2 = 3;
+//     var num3 = 4;
+//     document.write("<br/> Addition is:" + (+num1+num2+num3));
+//     document.write("<br/> Subtraction is:" + (+num3-num2-num1));
+//     document.write("<br/> Multiplication is:" + (+num3*num2*num1));
+//     document.write("<br/> Division is:" + (+num3/num1/num3));
+// }
+// math();
+
+
+
+// parameter function
+// function square(num1,num2,num3){
+//     document.write("<br/> Parameter function result is: " + (+num1+num2+num3));
+//     document.write("<br/> Parameter function result is: " + (+num1-num2-num3));
+//     document.write("<br/> Parameter function result is: " + (+num3*num2*num1));
+//     document.write("<br/> Parameter function result is: " + (+num3/num1/num3));
+// }
+// square(2,3,4);
+
+
+
+
+// using prompt
+
+// let Name= prompt("Enter your Name");
+// let Password= prompt("Enter your Password");
+// user (Name, Password)
+
+// function user (name, password){
+//     document.write("<br/>  Name: " + name);
+//     document.write("<br/> Password: " + password);
+
+// }
+
+
+// Invokeable function
+// (function user(a) {
+//     document.write("<br/> IIFEs Immediately Invokeable function Expressions: "+a*a);
+// }
+// ) (10);
+
+
+
+
+
+// Invokeable function
+(function user(a,b) {
+    document.write("<br/> IIFEs Immediately Invokeable function Expressions: "+a*b);
 }
-math();
+) (10,5);
