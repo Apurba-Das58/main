@@ -208,7 +208,60 @@
 
 
 // Invokeable function
-(function user(a,b) {
-    document.write("<br/> IIFEs Immediately Invokeable function Expressions: "+a*b);
-}
-) (10,5); 
+// (function user(a,b) {
+//     document.write("<br/> IIFEs Immediately Invokeable function Expressions: "+a*b);
+// }
+// ) (10,5); 
+
+
+
+
+
+
+
+// Array
+// var names = ["John", "David", "Alice", "Tom"];
+// document.write(names+"<br> <br>");
+
+// document.write(names[0]+ "<br>");
+// document.write(names[1]+ "<br>");
+// document.write(names[2]+ "<br>");
+// document.write(names[3]+ "<br> <br>");
+
+
+// var list= new Array [5];
+// for (i=0; i<4; i++);
+// list[i]= prompt("Enter"+ i +"index number");
+
+// for (var i = 0; i<names.length; i++)
+// document.write("<h1 style= 'color:red'>"+names[i]+ "</h1>");
+
+// for (var i = 0; i<names.length; i++)
+// document.write("<h1 style= 'background:lightgray'>"+names[i]+ "</h1>");
+
+// var namestype2 = new Array();
+// var namestype3 = new Array (5);
+
+
+
+// taking inputs with array
+// var myList = new Array(5);
+// for(var i=0;i< myList.length; i++)
+//     myList[i] = prompt ("Enter" + i + "index number");
+// for(var i=0; i<myList.length; i++)
+//     document.write(myList[i]+ "<br>");
+
+
+
+// Print Array
+var namesType = new Array();
+var namesType2 = new Array();
+
+namesType2[0] = "Arman";
+namesType2[1] = "Mozahid";
+namesType3[0] = "Shamim";
+namesType3[1] = "Roman";
+    
+
+
+
