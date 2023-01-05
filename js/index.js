@@ -254,14 +254,35 @@
 
 
 // Print Array
-var namesType = new Array();
-var namesType2 = new Array();
+// var namesType = new Array();
+// var namesType2 = new Array();
 
-namesType2[0] = "Arman";
-namesType2[1] = "Mozahid";
-namesType3[0] = "Shamim";
-namesType3[1] = "Roman";
-    
+// namesType[0] = "Arman";
+// namesType[1] = "Mozahid";
+// namesType2[0] = "Shamim";
+// namesType2[1] = "Roman";
+
+
+document.write(namesType.concat(namesType2))+"<br>";
+// document.write(namesType4 + ", <br>");
+
+
+// Type of print array
+// var namesType2 = new Array();
+// var namesType3 = new Array();
+// var namesType4 = new Array();
+// var sortedNames = new Array();
+
+
+// find the highest score from the given user inputs.
+num[0] = "12";
+num[1] = "13";
+num[2] = "14";
+num[3] = "15";
+document.write
+
+
+
 
 
 
